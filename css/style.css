@@ -41,3 +41,33 @@ input {
     color:white;
     
 }
+
+
+.duplicate{
+    color:white;
+   background:rgb(0, 0, 0,0.5);
+   width: 350px;
+   height: 370px;
+   text-align: center;
+    
+}
+
+.return{
+    color:white;
+   background:rgb(0, 0, 0,0.5);
+   width: 350px;
+   height: 370px;
+   text-align: center;
+
+    
+}
+
+
+
+button{
+    background:black;
+    width: 30%;
+    padding: 5px 15px;
+    color:white;
+
+}
