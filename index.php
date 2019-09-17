@@ -4,6 +4,7 @@ session_start();
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -19,7 +20,7 @@ session_start();
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Hotels</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -44,8 +45,11 @@ session_start();
           <a class="dropdown-item" href="#">Wine</a>
         </div>
       </li>
-
-      <form class="form-inline my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
@@ -59,7 +63,6 @@ session_start();
 <p id="city">City Lodge: R 400</p>
 <p id="town">Town Lodge: R 150</p>
 </div>
-
 
 
 <div class="container">
@@ -82,7 +85,6 @@ session_start();
 <label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
 <label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
 <button class="submit" name="submit" type="submit">Submit</button>
-
 
 
 </form>
@@ -250,8 +252,6 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
      
    </div>
 </div>
-</div>
-
 
 </div>
     <!-- End confirmation  Area -->
