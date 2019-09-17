@@ -59,3 +59,26 @@ session_start();
 <p id="city">City Lodge: R 400</p>
 <p id="town">Town Lodge: R 150</p>
 </div>
+
+
+
+<div class="container">
+   <div class="row">
+      <div class="col-md-6">
+      <div id='form'>
+<form role="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+
+<label>First Name<input type="text" name="firstname" placeholder='First Name' required></label><br>
+<label>Surname<input type="text" name="surname"placeholder='surname' required></label><br>
+<label>Hotel Name
+<select name="hotelname" required>
+  <option value="Holiday Inn">Holiday Inn</option>
+  <option value="Radison">Radison</option>
+  <option value="City Lodge">City Lodge</option>
+  <option value="Town Lodge">Town Lodge</option>
+</select>
+</label><br>
+
+<label>In Date<input type="date" name="indate" placeholder='indate' required></label><br>
+<label>Out Date<input type="date" name="outdate" placeholder='outdate' required></label><br>
+<button class="submit" name="submit" type="submit">Submit</button>
