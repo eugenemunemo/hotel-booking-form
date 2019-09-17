@@ -25,3 +25,19 @@ div#form{
 
 
 }
+
+input {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+.submit{
+    background:black;
+    width: 30%;
+    padding: 5px 15px;
+    color:white;
+    
+}
