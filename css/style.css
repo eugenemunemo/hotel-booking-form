@@ -1,0 +1,13 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    background-color:#E0E0E0;
+    background:url(https://image.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg);
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    background-size: 100%;
+}
+
+img{
+    height: 200px;}
