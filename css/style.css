@@ -71,3 +71,52 @@ button{
     color:white;
 
 }
+
+
+#confirmed{
+    margin-top: 5%;
+    margin-left:0%;
+    margin-right:10%;
+    border: 0.4rem;
+    float: right;;
+    color:white;
+    background:black;
+    font-weight: bold;
+    animation:blinkingText 0.8s;
+    animation-iteration-count: 5;
+}
+
+.footer-area {
+    padding-top: 100px;
+    background-color: #222222;
+}
+.section-gap {
+    padding: 120px 0;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+footer {
+    display: block;
+}
+
+footer {
+	background: #4e5375;}
+	.footer-nav {
+		margin-top: -7px;}
+		li {
+			margin-top: 8px;}
+			a {
+				color: white;}
+				:hover {
+					color: blue;
+				}
+			
+		
+	
+
