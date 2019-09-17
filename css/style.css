@@ -99,7 +99,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 *, *::before, *::after {
     box-sizing: inherit;
 }
-
+/* displayin footer  and background*/
 
 footer {
     display: block;
@@ -120,3 +120,101 @@ footer {
 		
 	
 
+                .instafeed {
+                    margin: -5px;}
+                    li {
+                        overflow: hidden;
+                        width: 25%;}
+                        
+                        img {
+                            margin: 5px;
+                        }
+                    }
+                }
+                .single-footer-widget {
+                    margin-bottom: 30px;
+                }
+                .footer-bottom {
+                    padding-top: 40px;}
+                    .footer-text {
+                        color: white;}
+                        i {
+                            color: #f3487f;
+                        }
+                        
+                        a {
+                            color: #f9c400;}
+                            :hover {
+                                color: #f9c400;
+                            }
+                        
+                /*footer*/	
+                
+                .footer-social {
+                    @include media-breakpoint-down(sm) {
+                        margin-top: 10px;
+                    }
+                    
+                    .a {border: 1px solid rgba( black 15);
+                        width:30px;
+                        line-height:30px;
+                        display: inline-block;
+                        text-align: center;
+                        margin-right: 5px;}
+                        
+                        .i {
+                            color: white;
+                            @include transition();
+                        
+                    }
+                        :last-child {
+                            margin-right: 0;
+                        }
+                        :hover {
+                            background: #f9c400;
+                            border: 1px solid transparent;}
+                            .i {
+                                color: #4e5375;
+                            }
+                        
+                    
+                
+                
+                /*----------- Start Generic Page -------------*/
+                
+                .about-generic-area {
+                    background: white;}
+                    .border-top-generic {
+                        padding: 100px 15px;
+                    }
+                    p {
+                        margin-bottom: 20px;
+                    }
+                
+                .white-bg {
+                    background: white;
+                }
+                .section-top-border {
+                    padding: 70px 0;
+                    border-top: 1px dotted #eee;
+                }
+                .switch-wrap {
+                    margin-bottom: 10px;}
+                    p {
+                        margin: 0;
+                    }
+                    .modal-footer {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        padding: 15px;
+                        border-top: 1px solid #e9ecef;
+                      }
+                      
+                      .modal-footer > :not(:first-child) {
+                        margin-left: .25rem;
+                      }
+                      
+                      .modal-footer > :not(:last-child) {
+                        margin-right: .25rem;
+                      }
