@@ -358,127 +358,37 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 			</div>
 		</section>
 		 End Service Area -->
-		<!-- Start Exprience Area -->
-		<section class="section-gap exprience-area">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6 col-md-8">
-						<div class="section-title text-center">
-							<h2>Beautiful Experiences</h2>
-							<p>Cape Town is the place to be , the view , beachs , atmosphere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row align-items-center">
-					<div class="col-lg-3 col-md-6">
-						<div class="vector-thumb">
-							<img src="img/v1.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="vector-thumb">
-							<img src="img/v2.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-12">
-						<div class="vector-content mt-30">
-							<h3 class="h2">Victoria falls</h3>
-							<h4>The smoke that thunders or known as Mosi ya tunya .</h4>
-							<p>Situated between Zimbabwe and Zambia .The city is among three boarders Namibia , Zimbabwe and Zambia .</p>
-							<a href="#" class="primary-btn white-bg">View Details</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Start Exprience Area -->
-		<!-- Start Projects Area -->
-		<section class="section-gap projects-area">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6 col-md-8">
-						<div class="section-title text-center">
-							<h2 class="text-white">Table Mountain</h2>
-							<p class="text-white">Table Mountain is the most iconic landmark of South Africa. ... Besides the mountain, the national park contains another one of South Africa's attractions.</p>
-						</div>
-					</div>
-				</div>
-				<div class="active-project-carousel">
-					<div class="item">
-						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/c1.jpg);"></div>
-							</div>
-							<div class="col-lg-4 col-md-6">
-								<div class="carousel-content">
-									<h3>Garden Route</h3>
-									<p>Along the South Coast of South Africa lies one of the most beautiful stretches of coastline in the world, home to the Garden Route National Park.
+		<!-- <div class="row-padding" id="about">
+    <div class="col l4 12">
+      <h3>About</h3>
+      <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+    <p>We accept: <i class="fa fa-credit-card large"></i> <i class="fa fa-cc-mastercard large"></i> <i class="fa fa-cc-amex large"></i> <i class="fa fa-cc-cc-visa large"></i><i class="fa fa-cc-paypal large"></i></p>
+    </div>
+    <div class="col l8 12">
+      <!-- Image of location/map -->
+      <img src="/images/map.jpg" class="image greyscale" style="width:;">
+    </div>
+  </div>
+  
+  <div class="row-padding large center" style="margin:32px 0">
+    <div class="third"><i class="fa fa-map-marker text-red"></i> 6 Biccardi Street, Durbanville, Cape Town, RSA</div>
+    <div class="third"><i class="fa fa-phone text-red"></i> Phone: +00 27 619125338</div>
+    <div class="third"><i class="fa fa-envelope text-red"></i> Email: emunemo@gmail.com</div>
+  </div>
 
-Featured Activity</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/c1.jpg);"></div>
-							</div>
-							<div class="col-lg-4 col-md-6">
-								<div class="carousel-content">
-									<h3>Durban Botanic Gardens</h3>
-									<p>The Durban Botanic Gardens is situated in the city of Durban, KwaZulu-Natal, South Africa. It is Durban’s oldest public institution and Africa's oldest surviving botanical gardens</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/c1.jpg);"></div>
-							</div>
-							<div class="col-lg-4 col-md-6">
-								<div class="carousel-content">
-									<h3>Sun City resort </h3>
-									<p>Sun City resort in South Africa is a premium destination with a host of hotels, attractions & kids' activities - ideal for golfing, game viewing & water sports.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+  <div class="panel red leftbar padding-32">
+    <h6><i class="fa fa-info deep-orange padding margin-right"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</h6>
+  </div>
+
+  <div class="container">
+    <h3>Our Hotels</h3>
+    <h6>You can find our hotels anywhere in the world:</h6>
+  </div>
+  
 		<!-- Start Projects Area -->
 		<!-- Start Exprience Area -->
-		<section class="section-gap">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6 col-md-8">
-						<div class="section-title text-center">
-							<h2>Keep in Touch</h2>
-							<p>For all reservations, please contact the appropiate hotel</p>
-						</div>
-					</div>ase
-				</div>
-				<form id="myForm" action="mail.php" method="post" class="contact-form">
-					<div class="row justify-content-center">
-						<div class="col-lg-5">
-							<input type="text" name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mt-20" required>
-						</div>
-						<div class="col-lg-5">
-							<input type="email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-20" required>
-						</div>
-						<div class="col-lg-10">
-							<textarea class="common-textarea mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required></textarea>
-						</div>
-						<div class="col-lg-10 d-flex justify-content-end">
-							<button class="primary-btn white-bg d-inline-flex align-items-center mt-20"><span class="mr-10">Send Message</span><span class="lnr lnr-arrow-right"></span></button> <br>
-							<div class="alert-msg"></div>
-						</div>
-					</div>
-				</form>
-			</div>
-		</section>
+
+
 		<!-- Start Exprience Area -->
 		<!-- Start Subscription Area -->
 		<section class="subscription-area">
