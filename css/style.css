@@ -13,10 +13,8 @@ img{
     height: 200px;}
 
 
-section{
-    margin-top: 400px;
-}
-    
+    div.c {
+        line-height: 80%;}
 
 div#form{
     width: 26%;

@@ -56,7 +56,7 @@ session_start();
 </div>
 
 
-<div class="container">
+<div class="container padding padding">
    <div class="row">
       <div class="col-md-6">
       <div id='form'>
@@ -245,12 +245,23 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 </div>
 
 </div>
+</div>
 
-<div class="container">
+
+
+
+<br>
+<br>
+<br>
+
+
+
+<div class="container padding padding">
 <div class="section">
 <div class="row-padding" id="about">
     <div class="col l4 12">
-      <h3>About</h3>
+		<p>
+      <h3>About</h3></p>
       <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
     <p>We accept: <i class="fa fa-credit-card large"></i> <i class="fa fa-cc-mastercard large"></i> <i class="fa fa-cc-amex large"></i> <i class="fa fa-cc-cc-visa large"></i><i class="fa fa-cc-paypal large"></i></p>
     </div>
