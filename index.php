@@ -242,123 +242,10 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 </div>
 
 </div>
-    <!-- End confirmation  Area -->
 
-
-		<!-- Start History Area -->
-	<!--	<section class="section-gap history-area">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6 col-md-8">
-						<div class="section-title text-center">
-							<h2>Glorious History</h2>
-							<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game,</p>
-						</div>
-					</div>
-				</div>
-				<div class="history-tab-wrapper">
-					<div class="row justify-content-between">
-						<div class="col-lg-4">
-							<div class="tab-thumb text-center">
-								<img src="img/tab-thumb.jpg" class="img-fluid" alt="">
-							</div>
-						</div>
-						<div class="col-lg-6 ml-auto">
-							<div class="tab-total-content">
-								<div class="nav ilene-tabs" id="myTab" role="tablist">
-									<a class="nav-item active" id="nav-home-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history" aria-selected="true"><span class="lnr lnr-map"></span>History</a>
-									<a class="nav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-mission" role="tab" aria-controls="nav-mission" aria-selected="false"><span class="lnr lnr-bullhorn"></span>Mission</a>
-									<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-vission" role="tab" aria-controls="nav-vission" aria-selected="false"><span class="lnr lnr-sun"></span>Vision</a>
-								</div>
-								<div class="tab-content mt-40" id="nav-tabContent">
-									<div class="tab-pane fade show active" id="nav-history" role="tabpanel" aria-labelledby="nav-home-tab">
-										<div class="single-content">
-											<h3>History</h3>
-											<p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.Small Towns and Big StatesFor evidence of the double standard, we need look no farther than Arlington.</p>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-profile-tab">
-										<div class="single-content">
-											<h3>Mission</h3>
-											<p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.Small Towns and Big StatesFor evidence of the double standard, we need look no farther than Arlington.</p>
-										</div>
-									</div>
-									<div class="tab-pane fade" id="nav-vission" role="tabpanel" aria-labelledby="nav-contact-tab">
-										<div class="single-content">
-											<h3>Vision</h3>
-											<p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.Small Towns and Big StatesFor evidence of the double standard, we need look no farther than Arlington.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-1"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<! End History Area -->
-		<!-- Start Service Area -->
-		<!--<section class="service-area">
-			<div class="container">
-				<div class="row no-gutters">
-					<div class="col-md-3 col-sm-6">
-						<div class="single-service">
-							<div class="top">
-								<div class="content text-center">
-									<span class="lnr lnr-magic-wand"></span>
-									<h3>Software</h3>
-								</div>
-							</div>
-							<div class="bottom">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="single-service d-flex flex-column">
-							<div class="bottom order-2 order-sm-1">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
-							</div>
-							<div class="top order-1 order-sm-2">
-								<div class="content text-center">
-									<span class="lnr lnr-book"></span>
-									<h3>Wordpress</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="single-service">
-							<div class="top">
-								<div class="content text-center">
-									<span class="lnr lnr-select"></span>
-									<h3>Front End</h3>
-								</div>
-							</div>
-							<div class="bottom">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="single-service d-flex flex-column">
-							<div class="bottom order-2 order-sm-1">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
-							</div>
-							<div class="top order-1 order-sm-2">
-								<div class="content text-center">
-									<span class="lnr lnr-diamond"></span>
-									<h3>UX Design</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		 End Service Area -->
-		<!-- <div class="row-padding" id="about">
+<div class="container">
+<div class="section">
+<div class="row-padding" id="about">
     <div class="col l4 12">
       <h3>About</h3>
       <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
@@ -384,38 +271,35 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
     <h3>Our Hotels</h3>
     <h6>You can find our hotels anywhere in the world:</h6>
   </div>
-  
-		<!-- Start Projects Area -->
+  </div>
+  </div>	<!-- Start Projects Area -->
 		<!-- Start Exprience Area -->
 
 
 		<!-- Start Exprience Area -->
 		<!-- Start Subscription Area -->
-		<section class="subscription-area">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6">
-						<div class="section-title text-center">
-							<h2 class="text-white">Together, <br>Let’s Make this happen</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row justify-content-center">
-					<div class="col-lg-6">
-						<div id="mc_embed_signup">
-							<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative">
-								<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
-								<div style="position: absolute; left: -5000px;">
-									<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
-								</div>
-								<button class="primary-btn white-bg d-inline-flex align-items-center"><span class="mr-10">Get Started</span><span class="lnr lnr-arrow-right"></span></button>
-								<div class="info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<div class="container padding-32 black opacity card hover-opacity-off" style="margin:32px 0;">
+    <h2>Get the best offers first!</h2>
+    <p>Join our newsletter.</p>
+    <label>E-mail</label>
+    <input class="input border" type="text" placeholder="Your Email address">
+    <button type="button" class="button red margin-top">Subscribe</button>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions, do not hesitate to ask them.</p>
+    <i class="fa fa-map-marker text-red" style="width:30px"></i> Chicago, US<br>
+    <i class="fa fa-phone text-red" style="width:30px"></i> Phone: +00 151515<br>
+    <i class="fa fa-envelope text-red" style="width:30px"> </i> Email: mail@mail.com<br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input padding-16 border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="button black padding-large" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
 		<!-- End Subscription Area -->
 
 		<!-- Strat Footer Area -->
