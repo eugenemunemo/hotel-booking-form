@@ -52,13 +52,13 @@ session_start();
    <div class="row">
       <div class="col-md-6">
 	 
-<h1>Reservation for your  dream Hotel</h1>
+<!--<h1>Reservation for your  dream Hotel</h1>
 <div class="price">
 <p id="inn">Holiday Inn: R 200</p>
 <p id="rad">Radison: R 100</p>
 <p id="city">City Lodge: R 400</p>
 <p id="town">Town Lodge: R 150</p>
-</div>
+</div>-->
 </div>
 </div>
 
@@ -88,7 +88,7 @@ session_start();
 </form>
 </div>
 
-      </div>
+     </div>
       <div class="col-md-6">
       <?php
 require_once "connect.php";
@@ -207,7 +207,7 @@ echo '<div class="return">'. "<br> Firstname:".  $_SESSION['firstname']."<br>".
 "Start Date:". $_SESSION['indate']."<br>".
 "End Date:". $_SESSION['outdate']."<br>".
 "Hotel Name:". $_SESSION['hotelname']."<br>".
-"Total R" . $value ;
+"<br>" . $interval->format('%r%a days') . "<br> Total R" . $value ;
 
 echo "<form role='form' action=" . htmlspecialchars($_SERVER['PHP_SELF']) . " method='post'>
 <button name='confirm' type='submit'> Confirm </button> </form>".'</div>';
@@ -321,6 +321,25 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
     </form>
   </div>
 
+
+<div>
+
+
+  <div class="statcard statcard-primary p-4 mb-2">
+  <h3 class="statcard-number">
+    12,938
+    <small class="delta-indicator delta-positive">5%</small>
+  </h3>
+  <span class="statcard-desc">Page views</span>
+</div>
+<div class="statcard statcard-success p-4 mb-2">
+  <h3 class="statcard-number">
+    758
+    <small class="delta-indicator delta-negative">1.3%</small>
+  </h3>
+  <span class="statcard-desc">Downloads</span>
+</div>
+</div>
 		<!-- End Subscription Area -->
 
 		<!-- Strat Footer Area -->
