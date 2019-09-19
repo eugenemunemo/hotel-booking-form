@@ -47,6 +47,11 @@ session_start();
   </div>
 </nav>
 
+
+<div class="container padding padding">
+   <div class="row">
+      <div class="col-md-6">
+	 
 <h1>Reservation for your  dream Hotel</h1>
 <div class="price">
 <p id="inn">Holiday Inn: R 200</p>
@@ -54,8 +59,10 @@ session_start();
 <p id="city">City Lodge: R 400</p>
 <p id="town">Town Lodge: R 150</p>
 </div>
+</div>
+</div>
 
-
+</div>
 <div class="container padding padding">
    <div class="row">
       <div class="col-md-6">
@@ -256,18 +263,18 @@ echo '<div id="confirmed">'."Booking confirmed".'</div>';
 
 
 
-<div class="container padding padding">
+<div class="c">
 <div class="section">
 <div class="row-padding" id="about">
     <div class="col l4 12">
-		<p>
-      <h3>About</h3></p>
+	<div class="c">	
+      <h3>About</h3>
       <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
     <p>We accept: <i class="fa fa-credit-card large"></i> <i class="fa fa-cc-mastercard large"></i> <i class="fa fa-cc-amex large"></i> <i class="fa fa-cc-cc-visa large"></i><i class="fa fa-cc-paypal large"></i></p>
     </div>
     <div class="col l8 12">
       <!-- Image of location/map -->
-      <img src="/images/map.jpg" class="image greyscale" style="width:;">
+      <img src="images/hotel2.jpg" class="image greyscale" style="width:;">
     </div>
   </div>
   
