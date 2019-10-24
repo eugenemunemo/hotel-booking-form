@@ -91,7 +91,7 @@ session_start();
      </div>
       <div class="col-md-6">
       <?php
-require_once "connect.php";
+require_once "config/connect.php";
 echo $conn->error;
 
 $sql = "CREATE TABLE IF NOT EXISTS bookings (
@@ -132,18 +132,6 @@ if (isset($_POST['submit'])) {
    $_SESSION['indate']= $_POST['indate'];
    $_SESSION['outdate']= $_POST['outdate'];
 
-
-
-//echo $_SESSION['firstname'] //."<br>".  $_SESSION['lastname'] ."<br>".  $_SESSION['hotelname'] ."<br>". $_SESSION['indate'] ."<br>". $_SESSION['outdate']."<br>";
-
-
-//display booking info to user
-
-// echo "<br> Firstname:".  $_SESSION['firstname']."<br>".
-// "surname:".  $_SESSION['surname']."<br>".
-// "Start Date:". $_SESSION['indate']."<br>".
-// "End Date:". $_SESSION['outdate']."<br>".
-// "Hotel Name:". $_SESSION['hotelname']."<br>";
 
 
 //calculate duration of user's stay at hotel
